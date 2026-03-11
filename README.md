@@ -89,13 +89,31 @@ A `.env.example` file is provided in the repository for reference.
 
 ### Base URL
 
-```
-http://localhost:3000/api/v1
+| Environment | URL |
+|---|---|
+| Local | `http://localhost:3000` |
+| Production | `https://perspectiv-api.vercel.app` |
+
+---
+
+### `GET /`
+
+Returns basic information about the API.
+
+**Response** `200 OK`
+
+```json
+{
+  "name": "Perspectiv API",
+  "description": "Open Source Transaction Enrichment API",
+  "version": "1.0.0",
+  "docs": "https://github.com/perspectiv-enrichment-api/perspectiv-api"
+}
 ```
 
 ---
 
-### `POST /enrich`
+### `POST /v1/enrich`
 
 Normalizes a raw transaction description and returns enriched merchant data.
 
