@@ -1,0 +1,1215 @@
+{
+  "noiseTokens": [
+    "pos",
+    "purchase",
+    "(debit)",
+    "[visa]",
+    "[visa](debit)",
+    "visa",
+    "debit",
+    "declined",
+    "[declined]",
+    "processing",
+    "mastercard",
+    "ref",
+    "txn"
+  ],
+  "merchants": [
+    {
+      "name": "adobe",
+      "aliases": [
+        "adobe",
+        "adobe inc",
+        "adobe systems",
+        "adobe.com",
+        "adobe creative cloud",
+        "adobe cc",
+        "adobeinc",
+        "adobesystems",
+        "adobecreativecloud",
+        "adobecc"
+      ],
+      "merchant_logo": "adobe.png"
+    },
+    {
+      "name": "africa world airlines",
+      "aliases": [
+        "africa world airlines",
+        "awa",
+        "africa world",
+        "africaworld",
+        "africaworldairlines"
+      ],
+      "merchant_logo": "africa_world_airlines.png"
+    },
+    {
+      "name": "air france",
+      "aliases": [
+        "air france",
+        "airfrance",
+        "air france klm",
+        "airfranceklm"
+      ],
+      "merchant_logo": "air_france.png"
+    },
+    {
+      "name": "airbnb",
+      "aliases": [
+        "airbnb",
+        "air bnb",
+        "airbnb.com",
+        "airbnb inc",
+        "airbnbinc"
+      ],
+      "merchant_logo": "airbnb.png"
+    },
+    {
+      "name": "aliexpress",
+      "aliases": [
+        "aliexpress",
+        "ali express",
+        "aliexpress.com",
+        "alibaba",
+        "ali"
+      ],
+      "merchant_logo": "aliexpress.png"
+    },
+    {
+      "name": "allied ghana",
+      "aliases": [
+        "allied ghana",
+        "allied",
+        "allied oil",
+        "allied petroleum",
+        "alliedghana",
+        "alliedoil",
+        "alliedpetroleum"
+      ],
+      "merchant_logo": "allied_ghana.png"
+    },
+    {
+      "name": "amazon",
+      "aliases": [
+        "amazon",
+        "amzn",
+        "amazon mktplace",
+        "amazon.com",
+        "amazon marketplace",
+        "amazonmktplace",
+        "amazonmarketplace"
+      ],
+      "merchant_logo": "amazon.png"
+    },
+    {
+      "name": "apple",
+      "aliases": [
+        "apple",
+        "apple.com",
+        "apple inc",
+        "itunes",
+        "apple store",
+        "app store",
+        "apple music",
+        "apple tv",
+        "icloud",
+        "appleinc",
+        "applestore",
+        "appstore",
+        "applemusic",
+        "appletv"
+      ],
+      "merchant_logo": "apple.png"
+    },
+    {
+      "name": "at ghana",
+      "aliases": [
+        "at ghana",
+        "at money",
+        "airtel tigo",
+        "airteltigo",
+        "at",
+        "atghana",
+        "atmoney"
+      ],
+      "merchant_logo": "at_ghana.png"
+    },
+    {
+      "name": "barcelos flame grilled chicken",
+      "aliases": [
+        "barcelos",
+        "barcelos flame",
+        "barcelos chicken",
+        "barcelos flame grilled chicken",
+        "barcelosflame",
+        "barceloschicken",
+        "barcelosflamegrilledchicken"
+      ],
+      "merchant_logo": "barcelos_flame_grilled_chicken.png"
+    },
+    {
+      "name": "betway",
+      "aliases": [
+        "betway",
+        "betway.com",
+        "betway africa",
+        "betway ghana",
+        "betwayafrica",
+        "betwayghana"
+      ],
+      "merchant_logo": "betway.png"
+    },
+    {
+      "name": "binance",
+      "aliases": [
+        "binance",
+        "binance.com",
+        "bnb",
+        "binance pay",
+        "binancepay"
+      ],
+      "merchant_logo": "binance.png"
+    },
+    {
+      "name": "blockchain",
+      "aliases": [
+        "blockchain",
+        "blockchain.com",
+        "blockchain wallet",
+        "blockchainwallet"
+      ],
+      "merchant_logo": "blockchain.png"
+    },
+    {
+      "name": "bolt",
+      "aliases": [
+        "bolt",
+        "bolt.eu",
+        "bolt_dl",
+        "bolt ride",
+        "bolt food",
+        "boltride",
+        "boltfood"
+      ],
+      "merchant_logo": "bolt.png"
+    },
+    {
+      "name": "booking",
+      "aliases": [
+        "booking",
+        "booking.com",
+        "bookingcom",
+        "booking holdings",
+        "bookingholdings"
+      ],
+      "merchant_logo": "booking.png"
+    },
+    {
+      "name": "british airways",
+      "aliases": [
+        "british airways",
+        "britishairways",
+        "british airway",
+        "britishairway"
+      ],
+      "merchant_logo": "british_airways.png"
+    },
+    {
+      "name": "burger king",
+      "aliases": [
+        "burger king",
+        "burgerking",
+        "bk",
+        "burger king ghana",
+        "burgerkingghana"
+      ],
+      "merchant_logo": "burger_king.png"
+    },
+    {
+      "name": "careem",
+      "aliases": [
+        "careem",
+        "careem.com",
+        "careem ride",
+        "careem pay",
+        "careemride",
+        "careempay"
+      ],
+      "merchant_logo": "careem.png"
+    },
+    {
+      "name": "cash app",
+      "aliases": [
+        "cashapp",
+        "cash app",
+        "cash.app",
+        "square cash",
+        "squarecash"
+      ],
+      "merchant_logo": "cashapp.png"
+    },
+    {
+      "name": "clarks",
+      "aliases": [
+        "clarks",
+        "clarks shoes",
+        "clarks.com",
+        "c j clark",
+        "clarksshoes",
+        "cjclark"
+      ],
+      "merchant_logo": "clarks.png"
+    },
+    {
+      "name": "compughana",
+      "aliases": [
+        "compughana",
+        "compughana.com",
+        "compu ghana",
+        "compu-ghana"
+      ],
+      "merchant_logo": "compughana.png"
+    },
+    {
+      "name": "decathlon",
+      "aliases": [
+        "decathlon",
+        "decathlon.com",
+        "decathlon sports",
+        "decathlonsports"
+      ],
+      "merchant_logo": "decathlon.png"
+    },
+    {
+      "name": "delta air lines",
+      "aliases": [
+        "delta",
+        "delta air lines",
+        "delta airlines",
+        "delta.com",
+        "deltaairlines"
+      ],
+      "merchant_logo": "delta_air_lines.png"
+    },
+    {
+      "name": "dstv",
+      "aliases": [
+        "dstv",
+        "dstv.com",
+        "multichoice",
+        "dstv now",
+        "dstv subscription",
+        "dstvnow",
+        "dstvsubscription"
+      ],
+      "merchant_logo": "dstv.png"
+    },
+    {
+      "name": "ebay",
+      "aliases": [
+        "ebay",
+        "ebay.com",
+        "ebay inc",
+        "ebay marketplace",
+        "ebayinc",
+        "ebaymarketplace"
+      ],
+      "merchant_logo": "ebay.png"
+    },
+    {
+      "name": "egyptair",
+      "aliases": [
+        "egyptair",
+        "egypt air",
+        "egyptair.com"
+      ],
+      "merchant_logo": "egyptair.png"
+    },
+    {
+      "name": "electroland ghana",
+      "aliases": [
+        "electroland",
+        "electroland ghana",
+        "electroland ghana limited",
+        "electroland ltd",
+        "electrolandghana",
+        "electrolandghanalimited",
+        "electrolandltd"
+      ],
+      "merchant_logo": "electroland_ghana_limited.png"
+    },
+    {
+      "name": "emirates airlines",
+      "aliases": [
+        "emirates",
+        "emirates airlines",
+        "emirates airline",
+        "emirates.com",
+        "emiratesairlines",
+        "emiratesairline"
+      ],
+      "merchant_logo": "emirates_airlines.png"
+    },
+    {
+      "name": "ernest chemists",
+      "aliases": [
+        "ernest chemists",
+        "ernest chemist",
+        "ernest pharmacy",
+        "ernestchemists",
+        "ernestchemist",
+        "ernestpharmacy"
+      ],
+      "merchant_logo": "ernest_chemists.png"
+    },
+    {
+      "name": "ethiopian airlines",
+      "aliases": [
+        "ethiopian",
+        "ethiopian airlines",
+        "ethiopianairlines",
+        "et",
+        "ethiopian airline",
+        "ethiopianairline"
+      ],
+      "merchant_logo": "ethiopian_airlines.png"
+    },
+    {
+      "name": "etihad airways",
+      "aliases": [
+        "etihad",
+        "etihad airways",
+        "etihad airline",
+        "etihad.com",
+        "etihadairways",
+        "etihadairline"
+      ],
+      "merchant_logo": "etihad_airways.png"
+    },
+    {
+      "name": "expresspay",
+      "aliases": [
+        "expresspay",
+        "expay",
+        "express pay",
+        "expresspay.com.gh"
+      ],
+      "merchant_logo": "expresspay.png"
+    },
+    {
+      "name": "f1 tv",
+      "aliases": [
+        "f1 tv",
+        "f1tv",
+        "formula 1 tv",
+        "formula1 tv",
+        "f1.com",
+        "formula1.com",
+        "formula1tv"
+      ],
+      "merchant_logo": "f1_tv.png"
+    },
+    {
+      "name": "facebook",
+      "aliases": [
+        "facebook",
+        "fb",
+        "facebook.com",
+        "meta",
+        "facebook ads",
+        "fb ads",
+        "facebookads",
+        "fbads"
+      ],
+      "merchant_logo": "facebook.png"
+    },
+    {
+      "name": "freeee",
+      "aliases": [
+        "freeee",
+        "freee",
+        "freeee.com"
+      ],
+      "merchant_logo": "freeee.png"
+    },
+    {
+      "name": "gigi beauty bar",
+      "aliases": [
+        "gigi beauty bar",
+        "gigi beauty",
+        "gigi bar",
+        "gigibeautybar",
+        "gigibeauty",
+        "gigibar"
+      ],
+      "merchant_logo": "gigi_beauty_bar.png"
+    },
+    {
+      "name": "godaddy",
+      "aliases": [
+        "godaddy",
+        "go daddy",
+        "godaddy.com",
+        "godaddy inc",
+        "godaddyinc"
+      ],
+      "merchant_logo": "godaddy.png"
+    },
+    {
+      "name": "goil",
+      "aliases": [
+        "goil",
+        "goil plc",
+        "ghana oil",
+        "goilplc",
+        "goil company",
+        "ghanaoil",
+        "goilcompany"
+      ],
+      "merchant_logo": "goil_plc.png"
+    },
+    {
+      "name": "google",
+      "aliases": [
+        "google",
+        "google.com",
+        "google play",
+        "google ads",
+        "google llc",
+        "google *",
+        "google cloud",
+        "youtube",
+        "googleplay",
+        "googleads",
+        "googlellc",
+        "google*",
+        "googlecloud"
+      ],
+      "merchant_logo": "google.png"
+    },
+    {
+      "name": "gotv",
+      "aliases": [
+        "gotv",
+        "gotv.com",
+        "multichoice gotv",
+        "go tv",
+        "multichoicegotv"
+      ],
+      "merchant_logo": "gotv.png"
+    },
+    {
+      "name": "hubtel",
+      "aliases": [
+        "hubtel",
+        "hubtel.com",
+        "hubtel gh",
+        "hubtel ghana",
+        "hubtelgh",
+        "hubtelghana"
+      ],
+      "merchant_logo": "hubtel.png"
+    },
+    {
+      "name": "jiji",
+      "aliases": [
+        "jiji",
+        "jiji.com",
+        "jiji.com.gh",
+        "jiji ghana",
+        "jijighana"
+      ],
+      "merchant_logo": "jiji.png"
+    },
+    {
+      "name": "jumia",
+      "aliases": [
+        "jumia",
+        "jumia.com",
+        "jumia.com.gh",
+        "jumia food",
+        "jumia ghana",
+        "jumiafood",
+        "jumiaghana"
+      ],
+      "merchant_logo": "jumia.png"
+    },
+    {
+      "name": "kfc",
+      "aliases": [
+        "kfc",
+        "kentucky fried chicken",
+        "kfc ghana",
+        "kfc.com",
+        "kentuckyfriedchicken",
+        "kfcghana"
+      ],
+      "merchant_logo": "kfc.png"
+    },
+    {
+      "name": "klm royal dutch airlines",
+      "aliases": [
+        "klm",
+        "klm royal dutch",
+        "klm airlines",
+        "klm.com",
+        "air france klm",
+        "klmroyaldutch",
+        "klmairlines",
+        "airfranceklm"
+      ],
+      "merchant_logo": "klm_royal_dutch_airlines.png"
+    },
+    {
+      "name": "lc waikiki",
+      "aliases": [
+        "lc waikiki",
+        "lcw",
+        "lc waikiki ghana",
+        "lcwaikiki",
+        "lcwaikikighana"
+      ],
+      "merchant_logo": "lc_waikiki.png"
+    },
+    {
+      "name": "levis",
+      "aliases": [
+        "levis",
+        "levi's",
+        "levi strauss",
+        "levis.com",
+        "levistrauss"
+      ],
+      "merchant_logo": "levis.png"
+    },
+    {
+      "name": "linkedin",
+      "aliases": [
+        "linkedin",
+        "linkedin.com",
+        "linkedin premium",
+        "linkedin ads",
+        "linkedinpremium",
+        "linkedinads"
+      ],
+      "merchant_logo": "linkedin.png"
+    },
+    {
+      "name": "lufthansa",
+      "aliases": [
+        "lufthansa",
+        "lufthansa.com",
+        "lufthansa airline",
+        "lufthansaairline"
+      ],
+      "merchant_logo": "lufthansa.png"
+    },
+    {
+      "name": "lyft",
+      "aliases": [
+        "lyft",
+        "lyft.com",
+        "lyft ride",
+        "lyft inc",
+        "lyftride",
+        "lyftinc"
+      ],
+      "merchant_logo": "lyft.png"
+    },
+    {
+      "name": "mac cosmetics",
+      "aliases": [
+        "mac",
+        "m.a.c",
+        "mac cosmetics",
+        "mac makeup",
+        "mac.com",
+        "maccosmetics",
+        "macmakeup"
+      ],
+      "merchant_logo": "m_a_c.png"
+    },
+    {
+      "name": "mailchimp",
+      "aliases": [
+        "mailchimp",
+        "mail chimp",
+        "mailchimp.com",
+        "intuit mailchimp",
+        "intuitmailchimp"
+      ],
+      "merchant_logo": "mailchimp.png"
+    },
+    {
+      "name": "melcom",
+      "aliases": [
+        "melcom",
+        "melcom ghana",
+        "melcom plus",
+        "melcom.com",
+        "melcomghana",
+        "melcomplus"
+      ],
+      "merchant_logo": "melcom.png"
+    },
+    {
+      "name": "mpharma",
+      "aliases": [
+        "mpharma",
+        "m-pharma",
+        "mpharma.com",
+        "mutti by mpharma",
+        "muttibympharma"
+      ],
+      "merchant_logo": "mpharma.png"
+    },
+    {
+      "name": "mr price",
+      "aliases": [
+        "mr price",
+        "mrprice",
+        "mr price ghana",
+        "mrp",
+        "mr p",
+        "mrpriceghana"
+      ],
+      "merchant_logo": "mr_price.png"
+    },
+    {
+      "name": "mtn",
+      "aliases": [
+        "mtn",
+        "mtn momo",
+        "momo",
+        "mtn ghana",
+        "mtn mobile money",
+        "mobile money",
+        "mtnmomo",
+        "mtnghana",
+        "mtnmobilemoney",
+        "mobilemoney"
+      ],
+      "merchant_logo": "mtn.png"
+    },
+    {
+      "name": "namecheap",
+      "aliases": [
+        "namecheap",
+        "name cheap",
+        "namecheap.com",
+        "namecheap inc",
+        "namecheapinc"
+      ],
+      "merchant_logo": "name_cheap.png"
+    },
+    {
+      "name": "netflix",
+      "aliases": [
+        "netflix",
+        "netflix.com",
+        "netflix subscription",
+        "nflx",
+        "netflixsubscription"
+      ],
+      "merchant_logo": "netflix.png"
+    },
+    {
+      "name": "nordvpn",
+      "aliases": [
+        "nordvpn",
+        "nord vpn",
+        "nordvpn.com",
+        "tefincom",
+        "nord security",
+        "nordsecurity"
+      ],
+      "merchant_logo": "nord_vpn.png"
+    },
+    {
+      "name": "onlyfans",
+      "aliases": [
+        "onlyfans",
+        "only fans",
+        "onlyfans.com"
+      ],
+      "merchant_logo": "onlyfans.png"
+    },
+    {
+      "name": "panda mart",
+      "aliases": [
+        "panda mart",
+        "pandamart",
+        "panda mart ghana",
+        "pandamartghana"
+      ],
+      "merchant_logo": "panda_mart.png"
+    },
+    {
+      "name": "passionair",
+      "aliases": [
+        "passionair",
+        "passion air",
+        "passionair ghana",
+        "passionairghana"
+      ],
+      "merchant_logo": "passionair.png"
+    },
+    {
+      "name": "perspectiv",
+      "aliases": [
+        "perspectiv",
+        "perspectiv.app",
+        "perspectiv inc",
+        "perspectivinc"
+      ],
+      "merchant_logo": "perspectiv.png"
+    },
+    {
+      "name": "petra",
+      "aliases": [
+        "petra",
+        "petra ghana",
+        "petra food",
+        "petraghana",
+        "petrafood"
+      ],
+      "merchant_logo": "petra.png"
+    },
+    {
+      "name": "pillpoint pharmacy",
+      "aliases": [
+        "pillpoint",
+        "pillpoint pharmacy",
+        "pill point",
+        "pillpoint.com",
+        "pillpointpharmacy"
+      ],
+      "merchant_logo": "pillpoint_pharmacy.png"
+    },
+    {
+      "name": "pinkberry",
+      "aliases": [
+        "pinkberry",
+        "pink berry",
+        "pinkberry ghana",
+        "pinkberry.com",
+        "pinkberryghana"
+      ],
+      "merchant_logo": "pinkberry.png"
+    },
+    {
+      "name": "pizza hut",
+      "aliases": [
+        "pizza hut",
+        "pizzahut",
+        "pizza hut ghana",
+        "pizzahut.com",
+        "pizzahutghana"
+      ],
+      "merchant_logo": "pizza_hut.png"
+    },
+    {
+      "name": "pizzaman chickenman",
+      "aliases": [
+        "pizzaman",
+        "chickenman",
+        "pizzaman-chickenman",
+        "pizzaman chickenman",
+        "pizzamanchickenman"
+      ],
+      "merchant_logo": "pizzaman-chickenman.png"
+    },
+    {
+      "name": "qatar airways",
+      "aliases": [
+        "qatar",
+        "qatar airways",
+        "qatarairways",
+        "qatar airline",
+        "qatarairline"
+      ],
+      "merchant_logo": "qatar_airways.png"
+    },
+    {
+      "name": "roads and transport authority dubai",
+      "aliases": [
+        "rta",
+        "roads and transport authority",
+        "rta dubai",
+        "dubai rta",
+        "salik",
+        "roadsandtransportauthority",
+        "rtadubai",
+        "dubairta"
+      ],
+      "merchant_logo": "roads_and_transport_authority_Dubai.png"
+    },
+    {
+      "name": "samsung",
+      "aliases": [
+        "samsung",
+        "samsung.com",
+        "samsung electronics",
+        "samsung pay",
+        "samsung shop",
+        "samsungelectronics",
+        "samsungpay",
+        "samsungshop"
+      ],
+      "merchant_logo": "samsung.png"
+    },
+    {
+      "name": "scentopia",
+      "aliases": [
+        "scentopia",
+        "scent opia",
+        "scentopia ghana",
+        "scentopiaghana"
+      ],
+      "merchant_logo": "scentopia.png"
+    },
+    {
+      "name": "shaxi",
+      "aliases": [
+        "shaxi",
+        "shaxi ghana",
+        "shaxi ride",
+        "shaxighana",
+        "shaxiride"
+      ],
+      "merchant_logo": "shaxi.png"
+    },
+    {
+      "name": "shein",
+      "aliases": [
+        "shein",
+        "shein.com",
+        "shein fashion",
+        "she in",
+        "sheinfashion"
+      ],
+      "merchant_logo": "shein.png"
+    },
+    {
+      "name": "shell",
+      "aliases": [
+        "shell",
+        "shell plc",
+        "shell ghana",
+        "shell fuel",
+        "shell petrol",
+        "shellplc",
+        "shellghana",
+        "shellfuel",
+        "shellpetrol"
+      ],
+      "merchant_logo": "shell_plc.png"
+    },
+    {
+      "name": "shoprite",
+      "aliases": [
+        "shoprite",
+        "shoprite ghana",
+        "shoprite.com",
+        "shoprite checkers",
+        "shopriteghana",
+        "shopritecheckers"
+      ],
+      "merchant_logo": "shoprite.png"
+    },
+    {
+      "name": "silverbird cinemas",
+      "aliases": [
+        "silverbird",
+        "silverbird cinemas",
+        "silverbird cinema",
+        "silverbird entertainment",
+        "silverbirdcinemas",
+        "silverbirdcinema",
+        "silverbirdentertainment"
+      ],
+      "merchant_logo": "silverbird_cinemas.png"
+    },
+    {
+      "name": "smarttransyt",
+      "aliases": [
+        "smarttransyt",
+        "smart transyt",
+        "smarttransyt.com"
+      ],
+      "merchant_logo": "smarttransyt.png"
+    },
+    {
+      "name": "snapchat",
+      "aliases": [
+        "snap",
+        "snapchat",
+        "snap.com",
+        "snapchat inc",
+        "snapchatinc"
+      ],
+      "merchant_logo": "snap.png"
+    },
+    {
+      "name": "speso",
+      "aliases": [
+        "speso",
+        "speso.com",
+        "speso app",
+        "spesoapp"
+      ],
+      "merchant_logo": "speso.png"
+    },
+    {
+      "name": "sportybet",
+      "aliases": [
+        "sportybet",
+        "sporty bet",
+        "sportybet.com",
+        "sportybet africa",
+        "sportybetafrica"
+      ],
+      "merchant_logo": "sportybet.png"
+    },
+    {
+      "name": "spotify",
+      "aliases": [
+        "spotify",
+        "spotify.com",
+        "spotify premium",
+        "spotify ab",
+        "spotifypremium",
+        "spotifyab"
+      ],
+      "merchant_logo": "spotify.png"
+    },
+    {
+      "name": "staroil",
+      "aliases": [
+        "staroil",
+        "star oil",
+        "staroil ghana",
+        "star petroleum",
+        "staroilghana",
+        "starpetroleum"
+      ],
+      "merchant_logo": "staroil.png"
+    },
+    {
+      "name": "surfshark",
+      "aliases": [
+        "surfshark",
+        "surf shark",
+        "surfshark.com",
+        "surfshark vpn",
+        "surfsharkvpn"
+      ],
+      "merchant_logo": "surfshark.png"
+    },
+    {
+      "name": "telecel",
+      "aliases": [
+        "telecel",
+        "telecel ghana",
+        "telecel cash",
+        "vodafone ghana",
+        "vodafone cash",
+        "telecelghana",
+        "telecelcash",
+        "vodafoneghana",
+        "vodafonecash"
+      ],
+      "merchant_logo": "telecel.png"
+    },
+    {
+      "name": "telefonika",
+      "aliases": [
+        "telefonika",
+        "telefonica",
+        "telefonika ghana",
+        "telefonika.com",
+        "telefonikaghana"
+      ],
+      "merchant_logo": "telefonika.png"
+    },
+    {
+      "name": "temu",
+      "aliases": [
+        "temu",
+        "temu.com",
+        "temu shopping",
+        "pdd holdings",
+        "temushopping",
+        "pddholdings"
+      ],
+      "merchant_logo": "temu.png"
+    },
+    {
+      "name": "the hair senta",
+      "aliases": [
+        "the hair senta",
+        "hair senta",
+        "the hair center",
+        "hair senta ghana",
+        "thehairsenta",
+        "hairsenta",
+        "thehaircenter",
+        "hairsentaghana"
+      ],
+      "merchant_logo": "the_hair_senta.png"
+    },
+    {
+      "name": "total energies",
+      "aliases": [
+        "total",
+        "total energies",
+        "totalenergies",
+        "total petroleum",
+        "total ghana",
+        "total fuel",
+        "totalpetroleum",
+        "totalghana",
+        "totalfuel"
+      ],
+      "merchant_logo": "total_energies.png"
+    },
+    {
+      "name": "turkish airlines",
+      "aliases": [
+        "turkish airlines",
+        "turkish airline",
+        "turkishairlines",
+        "turkish",
+        "turkishairline"
+      ],
+      "merchant_logo": "turkish_airlines.png"
+    },
+    {
+      "name": "uber",
+      "aliases": [
+        "uber",
+        "uber bv",
+        "uber ride",
+        "uber eats",
+        "ubereats",
+        "uberbv",
+        "uberride"
+      ],
+      "merchant_logo": "uber.png"
+    },
+    {
+      "name": "united airlines",
+      "aliases": [
+        "united airlines",
+        "united airline",
+        "unitedairlines",
+        "united",
+        "united.com",
+        "unitedairline"
+      ],
+      "merchant_logo": "united_airlines.png"
+    },
+    {
+      "name": "vida e caffe",
+      "aliases": [
+        "vida e caffe",
+        "vida",
+        "vida cafe",
+        "vida caffe",
+        "vida e cafe",
+        "vidaecaffe",
+        "vidacafe",
+        "vidacaffe",
+        "vidaecafe"
+      ],
+      "merchant_logo": "vida_e_caffe.png"
+    },
+    {
+      "name": "walmart",
+      "aliases": [
+        "walmart",
+        "wal-mart",
+        "walmart.com",
+        "walmart inc",
+        "walmartinc"
+      ],
+      "merchant_logo": "walmart.png"
+    },
+    {
+      "name": "woodin",
+      "aliases": [
+        "woodin",
+        "woodin ghana",
+        "woodin fabric",
+        "woodin.com",
+        "woodinghana",
+        "woodinfabric"
+      ],
+      "merchant_logo": "woodin.png"
+    },
+    {
+      "name": "x",
+      "aliases": [
+        "x",
+        "twitter",
+        "x.com",
+        "twitter.com",
+        "x corp",
+        "xcorp"
+      ],
+      "merchant_logo": "x.png"
+    },
+    {
+      "name": "yah ice cream",
+      "aliases": [
+        "yah icecream",
+        "yah ice cream",
+        "yah",
+        "yah desserts",
+        "yahicecream",
+        "yahdesserts"
+      ],
+      "merchant_logo": "yah_icecream.png"
+    },
+    {
+      "name": "yango",
+      "aliases": [
+        "yango",
+        "yango ride",
+        "yango.com",
+        "yango taxi",
+        "yangoride",
+        "yangotaxi"
+      ],
+      "merchant_logo": "yango.png"
+    },
+    {
+      "name": "yildiz pharmacy",
+      "aliases": [
+        "yildiz pharmacy",
+        "yildiz",
+        "yildiz chemist",
+        "yildiz pharma",
+        "yildizpharmacy",
+        "yildizchemist",
+        "yildizpharma"
+      ],
+      "merchant_logo": "yildiz_pharmacy.png"
+    },
+    {
+      "name": "zen petroleum",
+      "aliases": [
+        "zen petroleum",
+        "zen petroleum limited",
+        "zen petro",
+        "zen fuel",
+        "zen oil",
+        "zenpetroleum",
+        "zenpetroleumlimited",
+        "zenpetro",
+        "zenfuel",
+        "zenoil"
+      ],
+      "merchant_logo": "zen_petroleum_limited.png"
+    }
+  ]
+}
