@@ -90,12 +90,12 @@ A `.env.example` file is provided in the repository for reference.
 ### Base URL
 
 ```
-http://localhost:3000/api
+http://localhost:3000/api/v1
 ```
 
 ---
 
-### `POST /normalize`
+### `POST /enrich`
 
 Normalizes a raw transaction description and returns enriched merchant data.
 
