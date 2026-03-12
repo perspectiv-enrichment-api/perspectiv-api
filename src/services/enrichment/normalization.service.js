@@ -1,10 +1,10 @@
-import logger from "../../util/logger.js";
-import normalizationRule from "../../config/normalize-0.0.1.rules.json" with {type: "json"};
+import normalizeRules from "../../config/normalize-0.0.1.rules.json" with {type: "json"};
 import config from "../../config/index.js";
-
+import logger from "../../util/logger.js";
 
 /**
- * Lowercases, trims, strips brackets/parens, and collapses whitespace.
+ * Lowercases, trims, strips brackets/parens, phone numbers,
+ * slashes, and collapses whitespace.
  */
 const canonicalize = (data) => {
     if (!data || typeof data !== "string") return "";
@@ -12,8 +12,10 @@ const canonicalize = (data) => {
     return data
         .toLowerCase()
         .trim()
-        .replace(/[\[\]()]/g, "")   // strip brackets and parentheses
-        .replace(/\s+/g, " ");      // collapse multiple spaces into one
+        .replace(/[\[\]()]/g, "")           // strip brackets and parens
+        .replace(/\+?[\d\s\-]{7,}/g, " ")   // strip phone numbers / long digit sequences
+        .replace(/[\/\\+]/g, " ")            // replace slashes and + with spaces
+        .replace(/\s+/g, " ");              // collapse multiple spaces into one
 };
 
 
@@ -24,7 +26,7 @@ const canonicalize = (data) => {
 const denoise = (data, noiseTokens = []) => {
     if (!data) return "";
 
-    const tokens = data.split(/\s+/);  // split on any whitespace
+    const tokens = data.split(/\s+/);
 
     const filtered = tokens.filter((token) => {
         if (!token) return false;
@@ -52,10 +54,7 @@ const denoise = (data, noiseTokens = []) => {
 const matchMerchant = (data, merchants = []) => {
     for (const merchant of merchants) {
         for (const alias of merchant.aliases) {
-            // escape any regex special characters in the alias
             const escaped = alias.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-
-            // whole-word match: alias must not be preceded or followed by alphanumeric chars
             const regex = new RegExp(`(?<![a-z0-9])${escaped}(?![a-z0-9])`, "i");
 
             if (regex.test(data)) {
@@ -77,6 +76,19 @@ const matchMerchant = (data, merchants = []) => {
 };
 
 
+/**
+ * Logs unmatched descriptions for later analysis and alias improvements.
+ */
+const logUnmatched = (originalDescription, normalizedDescription) => {
+    logger.warn("UNMATCHED_MERCHANT", {
+        type: "unmatched_merchant",
+        originalDescription,
+        normalizedDescription,
+        timestamp: new Date().toISOString()
+    });
+};
+
+
 const normalize = (payload) => {
     logger.info(`Normalizing and extracting insights from ${JSON.stringify(payload)}`);
 
@@ -94,11 +106,16 @@ const normalize = (payload) => {
     logger.info(`Result of canonicalization: ${canonical}`);
 
     // denoise
-    const cleaned = denoise(canonical, normalizationRule.noiseTokens);
+    const cleaned = denoise(canonical, normalizeRules.noiseTokens);
     logger.info(`Result of denoising: ${cleaned}`);
 
     // match merchant
-    const merchantMatch = matchMerchant(cleaned, normalizationRule.merchants);
+    const merchantMatch = matchMerchant(cleaned, normalizeRules.merchants);
+
+    // log unmatched for analysis
+    if (!merchantMatch.name) {
+        logUnmatched(originalDescription, cleaned);
+    }
 
     return {
         originalDescription,
